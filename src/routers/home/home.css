@@ -1,0 +1,107 @@
+
+
+                     /*---------------------- COVER PAG -----------------------*/
+
+
+                     /*---------------------- HEADER -----------------------*/
+
+.header {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+}
+                     /*---------------------- COVER TITLE -----------------------*/
+
+ .title {
+     word-wrap: break-word;
+     text-align: center;
+     font-size: 3rem;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+                     /*---------------------- COVER TEXT -----------------------*/
+
+ .cover-text {
+     word-wrap: break-word;
+     text-align: center;
+     
+     width: auto;
+     max-width: 90%;
+     padding-top: 2rem;
+     padding-bottom: 2rem;
+     font-size: 1.5rem;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+                    /*---------------------- CONTAINER PRIMARY -----------------------*/
+                    .container-primary {         
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding-block: 2rem;
+    padding-inline: 1rem;
+    background-color:rgb(240, 212, 177);
+    border-radius: 15px;
+    margin-inline: 1rem;
+ 
+   
+ }
+                 /*---------------------- LIST RECIPES -----------------------*/
+
+  .List-recipes {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      flex-grow: 1;
+      
+  }
+  .list-title {
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 1.6rem;
+      padding-bottom: 2rem; 
+      text-align: center;
+  }
+  .item {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      flex-wrap: wrap;
+      list-style: none;
+      gap: 1rem;
+      background-color: rgb(252, 236, 195);
+      padding-inline: 2rem;
+      padding-block: 2rem;
+      border-radius: 12px;
+  }
+  .items {
+      border: 2px solid darkgray;
+      background-color:rgb(26, 26, 63); 
+      color: white;
+      border-radius: 10 ;
+      text-align: center;
+      padding-block: 0.5rem;
+  
+  }
+ .list-link {
+     text-decoration: none;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color: white;
+ 
+ }
+                         
+                  /*---------------------- COVER IMG -----------------------*/
+     .cover-img {
+         max-width: 100%;
+         height: auto;
+         align-items: center;
+         border-radius: 30px;
+         flex-grow: 1; 
+         width: 400px;
+         height: 400px;
+        
+        }
