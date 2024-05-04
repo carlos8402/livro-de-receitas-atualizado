@@ -1,0 +1,11 @@
+.like-button{
+    font-size: 18px;
+    font-weight: 400;
+    padding-inline: 0.9rem;
+    padding-block: 0.2rem;
+    border: 1px solid rgb(180, 159, 105);
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px rgb(39, 29, 5);
+    background-color: rgb(248, 226, 174);
+
+}   

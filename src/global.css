@@ -110,6 +110,7 @@
     min-width: 0;
     object-fit: cover;
     border-radius: 15px;
+
 }
 
                  /*---------------------- CONTAINER-2 -----------------------*/
@@ -171,7 +172,17 @@
  
    height: auto;
    flex-grow: 1;
+   position: relative;
+
+  
 }
+.like-button{
+    position:absolute;
+
+
+   
+}
+
 }
 .ingredients {
     align-items: center;
@@ -185,6 +196,9 @@
     justify-content: space-around;
     
 }
+
+
+
                     
                      
                         

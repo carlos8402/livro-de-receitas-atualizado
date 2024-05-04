@@ -1,4 +1,4 @@
-
+import { LikeButton } from "../../components/likeButton/LikeButton"
 
 export function LasanhaDeCarneMoida() {
   return (
@@ -60,7 +60,7 @@ export function LasanhaDeCarneMoida() {
                   </div>
 
                     <img className="recipes-img" src="imagens\lasanha.jpg" alt="" width={'600px'} height={'auto'} />
-
+                    <LikeButton />
               </section>
 
               <section className="container-2">

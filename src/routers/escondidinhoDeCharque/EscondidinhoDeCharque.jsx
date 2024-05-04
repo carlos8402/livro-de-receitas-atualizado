@@ -1,4 +1,4 @@
-
+import { LikeButton } from "../../components/likeButton/LikeButton"
 
  export function EscondidinhoDeCharque() {
   return (
@@ -50,7 +50,8 @@
 
                   </div>
 
-                  <img className="recipes-img" src="imagens\escondidinho.jpg" alt=""  width={'600px'} height={'auto'}/>
+                        <img className="recipes-img" src="imagens\escondidinho.jpg" alt=""  width={'600px'} height={'auto'}/>
+                        <LikeButton />
 
               </section>
 

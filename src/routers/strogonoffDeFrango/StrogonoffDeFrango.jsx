@@ -1,4 +1,4 @@
-
+import { LikeButton } from "../../components/likeButton/LikeButton"
 
 export function StrogonoffDeFrango() {
   return (
@@ -48,8 +48,9 @@ export function StrogonoffDeFrango() {
 
                     </div>
 
-                      <img className="recipes-img" src="imagens\strogonoff.jpg" alt=""  width={'600px'} height={'auto'}/>
-
+                        <img className="recipes-img" src="imagens\strogonoff.jpg" alt=""  width={'600px'} height={'auto'}/>
+                        <LikeButton />
+            
                 </section>
 
                 <section className="container-2">
